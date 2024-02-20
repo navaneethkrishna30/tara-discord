@@ -7,16 +7,16 @@ def get_response(user_input: str) -> str:
     lowered: str = user_input.lower()
     
     if lowered == '':
-        return 'Enter a fucking message you moron'
+        return 'Enter a message'
     
     elif 'hello' in lowered:
-        return 'wtf do you want come to the point'
+        return 'Hello! How can I help you today'
     
     elif 'bye' in lowered:
-        return 'fuck of nigga'
+        return 'Bye!!!'
     
     elif 'power cut' in lowered:
         return get_power_outage()
     
     else:
-        return 'Bitch type sth I can understand'
+        return 'Please enter a proper command'
